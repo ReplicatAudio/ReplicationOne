@@ -2,8 +2,7 @@
   ==============================================================================
 
     ReplicationOne.h
-    Created: 15 Nov 2022 3:55:31am
-    Author:  dombr
+    v0.8.0
     ---
     No memory should be allocated at runtime
   ==============================================================================
@@ -19,7 +18,6 @@ public:
         startTimerHz(fps*samplesPerPaint);
         // Ensure the entire plugin window is running in the OpenGL context
         openGLContext.attachTo(*getTopLevelComponent());
-        
     };
     ~ReplicationOne() {};
     void timerCallback()
