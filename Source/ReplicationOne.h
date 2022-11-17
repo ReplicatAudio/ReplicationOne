@@ -124,8 +124,8 @@ private:
     int fps = 60;
     const int pbSize = 1024;// Point buffer size
     // Analysis Cache
-    int x[1024] = { 0 };// Point buffer X
-    int y[1024] = { 0 };// Point buffer Y
+    int x[1024] = { 0 };// Point ring buffer X
+    int y[1024] = { 0 };// Point ring buffer Y
     int pointIndex = 0;// Current position in the point buffer
     double peak = 0;
     float diff = 0;

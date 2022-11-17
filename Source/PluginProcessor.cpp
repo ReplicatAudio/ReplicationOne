@@ -95,6 +95,7 @@ void ReplicationOneAudioProcessor::prepareToPlay (double sampleRate, int samples
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
+    streamAnalysis.prepareToPlay(sampleRate, 20);
 }
 
 void ReplicationOneAudioProcessor::releaseResources()
