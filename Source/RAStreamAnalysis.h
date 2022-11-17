@@ -2,8 +2,7 @@
   ==============================================================================
 
     RAStreamAnalysis.h
-    Created: 15 Nov 2022 3:54:53am
-    Author:  dombr
+    v0.8.0
     ---
 
     This module implements a ring buffer and provides some analysis tools for said buffer.
